@@ -20,6 +20,13 @@
   zoom: 1;
 }
 
+body {
+	margin: 0;
+	padding: 0;
+}
+
+/* CSS Style for index.html */
+
 header {
 	width: 100%;
 	color: #000000;
@@ -42,7 +49,7 @@ header {
 	top: 5px;
 }
 
-.navbar input[type="button"] {
+.navbar input[type="button"], header .search-top .search-right input[type="button"] {
 	line-height: 30px;
 	background-color: rgb(66,133,244);
     border: 1px solid #f2f2f2;
@@ -174,4 +181,101 @@ footer .left-section span :hover,
 footer .right-section span :hover {
 	text-decoration: underline;
 	cursor: pointer;
+}
+
+
+/* CSS Style for search_result.html */
+
+header .search-top {
+	margin: 20px 30px;
+}
+
+header .search-top .img {
+	width: 92px;
+	height: 33px;
+	float: left;
+	position: relative;
+	top: 5px;
+}
+
+header .search-top input[type="text"] {
+	width: 580px;
+	height: 30px;
+	padding: 5px 20px;
+	float: left;
+	margin: 0px 30px;
+	border-radius: 20px;
+	border: 1px solid #cccccc;
+	font-size: 16px;
+}
+
+header .search-top input[type="text"]:focus {
+	outline: none;
+}
+header .search-top input:hover {
+	box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.08);
+}
+
+header .search-top .icon {
+	position: relative;
+	top: 10px;
+	left: -120px;
+}
+
+header .search-top .icon img {
+	margin: 0px 5px;
+}
+
+header .search-top .search-right {
+	float: right;
+	position: relative;
+	top: -30px;
+}
+
+header .search-top .search-right img {
+	position: relative;
+	top: 7px;
+	left: -15px;
+}
+
+header .search-top .search-right input[type="button"] {
+	margin: 6px 2px;
+    padding: 0 12px;
+}
+
+header .search-top .menu {
+	width: 700px;
+	position: relative;
+	top: 10px;
+	left: 80px;
+	bottom: 0px;
+}
+
+header .search-top .menu ul {
+	position: absolute;
+	bottom: -24px;
+}
+
+header .search-top .menu ul li {
+	float: left;
+	width: 60px;
+	list-style: none;
+	vertical-align: middle;
+	text-align: center;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+
+header .search-top .menu ul li a {
+	text-decoration: none;
+	color: #757575;
+}
+
+header .search-top .menu ul li a:hover {
+	color: #222222;
+}
+
+header .search-top .menu .active {
+	font-weight: bold;
+	color: #1A73E8;
 }
