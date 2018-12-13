@@ -27,7 +27,7 @@ body {
 
 /* CSS Style for index.html */
 
-header {
+header, section {
 	width: 100%;
 	color: #000000;
     font-family: arial,sans-serif;
@@ -278,4 +278,161 @@ header .search-top .menu ul li a:hover {
 header .search-top .menu .active {
 	font-weight: bold;
 	color: #1A73E8;
+}
+
+section {
+	width: 600px;
+	/*border: 1px solid #000000;*/
+	margin-left: 150px;
+	color: #757575;
+}
+
+section p {
+	padding-left: 20px;
+}
+
+section .search-description {
+	width: 570px;
+	border: 1px solid #cccccc;
+	border-radius: 5px;
+	padding: 0px 15px;
+	color: #222222;
+}
+
+section .search-description ol {
+	position: relative;
+	left: -25px;
+	font-size: 16px;
+}
+
+section .search-description p, .search-result p{
+	color: #757575;
+	margin-bottom: 20px;
+}
+
+section .search-description a, .search-result a {
+	color: #1a0dab;
+	font-size: 17px;
+	text-decoration: none;
+}
+
+section .search-description a:hover, .search-result a:hover {
+	text-decoration: underline;
+}
+
+section .search-description span, .search-result span {
+	color: #006621;
+	font-size: 15px;
+	margin-top: 5px;
+	display: block;
+	margin-bottom: 20px;
+}
+
+section .search-result span img {
+	position: relative;
+	top: -20px;
+	left: 580px;
+}
+
+section .search-result {
+	margin: 40px 0px 0px 15px;
+}
+
+section .search-result p {
+	position: relative;
+	top: -34px;
+	right: 22px;
+}
+
+section .search-result p span {
+	font-size: 13px;
+}
+
+section .search-result .search-details {
+	margin-bottom: -24px;
+}
+
+section .search-bottom {
+	float: left;
+}
+
+section .search-bottom p{
+	font-size: 18px;
+	color: #222222;
+	position: relative;
+	left: -10px;
+}
+
+section .search-suggestions {
+	width: 800px;
+}
+
+section .search-suggestions .l-side {
+	width: 300px;
+	float: left;
+	height: 180px;
+}
+
+section .search-suggestions .r-side {
+	width: 300px;
+	position: relative;
+	top: -132px;
+	right: -260px;
+}
+
+section .search-suggestions .l-side ul li, .r-side ul li {
+	margin-bottom: 10px;
+}
+
+section .search-suggestions .l-side ul li a, .r-side ul li a {
+	color: #1a0dab;
+	font-size: 15px;
+	text-decoration: none;
+	font-weight: bold;
+	position: relative;
+	left: -30px;
+}
+
+.footer {
+	width: 100%;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	clear: both;
+}
+
+.footer .upper span {
+	padding-left: 120px;
+}
+
+.footer .lower span {
+	padding-left: 120px;
+	font-size: 14px;
+}
+
+.footer .upper, .lower {
+	background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    line-height: 36px;
+    font-family: arial,sans-serif;
+    font-size: 15px;
+    color: #757575;
+    padding: 1px 30px;
+}
+
+.footer .upper img {
+	position: relative;
+	left: -610px;
+}
+
+.footer .upper strong {
+	color: #000000;
+	padding-left: 10px;
+}
+
+.search-image {
+	clear: both;
+	width: 200px;
+	margin-left: 304px;
+	margin-bottom: 30px;
 }
