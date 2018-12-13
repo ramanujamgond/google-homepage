@@ -368,16 +368,16 @@ section .search-suggestions {
 }
 
 section .search-suggestions .l-side {
-	width: 300px;
+	width: 320px;
 	float: left;
 	height: 180px;
 }
 
 section .search-suggestions .r-side {
-	width: 300px;
+	width: 320px;
 	position: relative;
-	top: -132px;
-	right: -260px;
+	top: -116px;
+	right: -300px;
 }
 
 section .search-suggestions .l-side ul li, .r-side ul li {
